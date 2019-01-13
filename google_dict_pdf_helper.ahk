@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 +z::
 WinGetActiveStats, winT, winW, winH, winX, winY
 ImageSearch, IconX, IconY, 0, 0, winW, winH, *150 google_dict.png
-if X {
+if IconX {
     MouseGetPos , MouseX, MouseY
     Send ^c
     MouseMove, IconX, IconY, 0
