@@ -3,4 +3,4 @@ An AHK script that searches the selected text using Google Dictionary Chrome ext
 
 Hotkey: `shift + z` (edit the script to customize)  
 
-Note: You have to make the dictionary extension icon **visible** to use the script. The script uses the [ImageSearchMake](https://autohotkey.com/docs/commands/ImageSearch.htm) function to find the icon. Make a screenshot of the icon starting from its center to bottom right conner, rename it 'autodict.png' and place it in the same folder as the script.
+Note: You have to make the dictionary extension icon **visible** to use the script. The script uses the [ImageSearchMake](https://autohotkey.com/docs/commands/ImageSearch.htm) function to find the icon. Make a screenshot of the icon starting from its center to bottom right corner, rename it 'autodict.png' and place it in the same folder as the script.
