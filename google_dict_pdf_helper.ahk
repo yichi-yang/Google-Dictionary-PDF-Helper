@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-+z::
+^+z::
 WinGetActiveStats, winT, winW, winH, winX, winY
 ImageSearch, IconX, IconY, 0, 0, winW, winH, *150 google_dict.png
 if IconX {
